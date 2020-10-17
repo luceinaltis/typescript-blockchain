@@ -1,0 +1,23 @@
+{
+  "name": "typescript-blockchain",
+  "version": "1.0.0",
+  "description": "Practice Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luceinaltis/typescript-blockchain.git"
+  },
+  "author": "\"Kim Ki Hwan <luceinaltis2020@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luceinaltis/typescript-blockchain/issues"
+  },
+  "homepage": "https://github.com/luceinaltis/typescript-blockchain#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "tsc-watch": "^4.2.9"
+  }
+}
